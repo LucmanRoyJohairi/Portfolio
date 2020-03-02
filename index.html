@@ -8,28 +8,35 @@
         h1,p{
             text-align: center;
         }
+        #header-img{
+            background:url("images/coffee.jpg");
+            background-size:100%;
+            background-repeat: no-repeat;
+            min-height: 300px;
+        }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <div class="wrapper">
         <!--Navigation-->
-        <nav nav class="navbar navbar-light bg-dark">
-            <a href="#" class="navbar-brand ">
-                <img src="images/logo.jpg" width="30" class="d-inline-block align-top"> <span class="text-light">Porfolio</span>
-            </a>
-            <ul class="nav">
-                <li class="nav-item"><a class="nav-link  text-light" href="#">HOME</a></li>
-                <li class="nav-item"><a class="nav-link  text-light" href="#">ABOUT</a></li>
-                <li class="nav-item"><a class="nav-link  text-light" href="#">CONTACT</a></li>
-            </ul>
+        <nav nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand ">
+                    <img src="images/logo.jpg" width="30" class="d-inline-block align-top"> <span class="text-light">Porfolio</span>
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link  text-light" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link  text-light" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link  text-light" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+           
         </nav>
     </div>
-        
-    <div class="jumbotron">
+    <div id="header-img">
         <!--Header-->
-        <h1 class="display-4">Services offered</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at tempore adipisci libero modi in voluptatum. Dignissimos harum accusantium quisquam neque veritatis maxime corporis quod, eum numquam blanditiis, pariatur incidunt?</p>
+        
     </div>
     <div>
         <!--Main-->
