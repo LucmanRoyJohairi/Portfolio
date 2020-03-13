@@ -1,11 +1,10 @@
 body{
     background:lightgray;
 }
-#para p{
-    margin-bottom:25px;
-    text-align: left;
-    
+#para{
+    background: gray;
 }
+
 #sect{
     background: #216583;
     padding:50px;
@@ -23,15 +22,18 @@ h1,p{
     text-align: center;
 }
 #header-img{
-    /*background:url("images/coffee2.jpg");
+    background:url("images/lap.jpg");
+    
     background-size:100%;
-    background-repeat: no-repeat;*/
-    background:#216583;
+    background-repeat: no-repeat;
+    /*background:#216583;*/
     min-height: 400px;
     padding-top:125px;
-    color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
 .img-1{
     margin-left:30%;
+}
+#contactinfo{
+    background: red;
 }
