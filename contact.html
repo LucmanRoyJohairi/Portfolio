@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Contact Info</title>
+    <style>
+        .container{
+            width: 500px;
+        }
+    </style>
 </head>
 <body>
      <!--Navigation-->
@@ -20,17 +25,20 @@
         </ul>
     </nav>
     <div class="container bg-light p-5 mt-5 mb-5 border" id="contactinfo"> 
-        <h1 class="p-3 mt-4">For more Inquires</h1>
+        <h1 class="text-center p-3 mt-4">Contact me</h1>
         <form p-3>
             <div class="form-group  mx-sm-2 mb-4">
-                <input type="email" class="form-control" placeholder="Your name">
+                <label for="">Firstname</label>
+                <input type="email" class="form-control ">
             </div>
             
             <div class="form-group  mx-sm-2 mb-4">
-              <input type="password" class="form-control" placeholder="Your email">
+                <label for="">Email</label>
+              <input type="password" class="form-control">
             </div>
             <div class="form-group  mx-sm-2 mb-4">
-                <textarea name="Your message" id="" cols="50" rows="10" placeholder="Message"></textarea>
+                <label for="">Message</label>
+                <textarea class="ml-1" name="Your message" id="" cols="50" rows="10"></textarea>
               </div>
             <button type="submit" class="btn btn-primary p-3">Send Message</button>
           </form>
