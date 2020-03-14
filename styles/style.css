@@ -37,3 +37,6 @@ h1,p{
 #contactinfo{
     background: red;
 }
+td{
+    padding:30px;
+}
