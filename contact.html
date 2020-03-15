@@ -20,29 +20,42 @@
         <ul class="nav ml-auto">
             <li class="nav-item"><a class="nav-link  text-light" href="index.html">HOME</a></li>
             <li class="nav-item"><a class="nav-link  text-light" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link  text-light" href="portfolio.html">PORTFOLIO</a></li>
             <li class="nav-item"><a class="nav-link  text-light" href="contact.html">CONTACT</a></li>
             <li class="nav-item"><a class="nav-link  text-light" href="gallery.html">GALLERY</a></li>
         </ul>
     </nav>
-    <div class="container bg-light p-5 mt-5 mb-5 border" id="contactinfo"> 
-        <h1 class="text-center p-3 mt-4">Contact me</h1>
-        <form p-3>
-            <div class="form-group  mx-sm-2 mb-4">
-                <label for="">Firstname</label>
-                <input type="email" class="form-control ">
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="images/spy.png" height="200" width="220" class="m-5 text-center" alt="profile">
+            <h1 class="m-5 pl-5 text-center">Email me your concerns</h1>
+        </div>
+        <div class="col-sm-9">
+            <div class="container bg-dark text-light p-5 mt-5 mb-5 border" id="contactinfo">
+                <img src="images/r.png" height="200" width="220" class="ml-5" alt="profile">
+                <h1 class="text-center p-3 mt-4">Contact me</h1>
+                <form p-3>
+                    <div class="form-group  mx-sm-2 mb-4">
+                        <label class="text-light">Firstname</label>
+                        <input type="email" class="form-control ">
+                    </div>
+                    
+                    <div class="form-group  mx-sm-2 mb-4">
+                        <label for="">Email</label>
+                    <input type="password" class="form-control">
+                    </div>
+                    <div class="form-group  mx-sm-2 mb-4">
+                        <label for="">Message</label>
+                        <textarea class="ml-1" name="Your message" id="" cols="50" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger p-3">Send Message</button>
+                </form>
             </div>
+
             
-            <div class="form-group  mx-sm-2 mb-4">
-                <label for="">Email</label>
-              <input type="password" class="form-control">
-            </div>
-            <div class="form-group  mx-sm-2 mb-4">
-                <label for="">Message</label>
-                <textarea class="ml-1" name="Your message" id="" cols="50" rows="10"></textarea>
-              </div>
-            <button type="submit" class="btn btn-primary p-3">Send Message</button>
-          </form>
-    </div>
+        </div>
+    </div> 
+        
     <!--footer-->
     <div class="container-fluid bg-dark text-light p-5">
         <div class="row">
